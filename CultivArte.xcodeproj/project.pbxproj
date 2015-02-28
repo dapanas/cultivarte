@@ -15,6 +15,12 @@
 		6DDE24581AA2014E0092A602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24571AA2014E0092A602 /* Images.xcassets */; };
 		6DDE245B1AA2014E0092A602 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24591AA2014E0092A602 /* LaunchScreen.xib */; };
 		6DDE24671AA2014E0092A602 /* CultivArteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24661AA2014E0092A602 /* CultivArteTests.m */; };
+		6DDE24721AA206970092A602 /* ReferenciaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24711AA206970092A602 /* ReferenciaTableViewController.m */; };
+		6DDE24751AA20C890092A602 /* ReferenciaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24741AA20C890092A602 /* ReferenciaDetailViewController.m */; };
+		6DDE24781AA217260092A602 /* Referencia.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24771AA217260092A602 /* Referencia.m */; };
+		6DDE247A1AA223210092A602 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDE24791AA223210092A602 /* MapKit.framework */; };
+		6DDE247C1AA223270092A602 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDE247B1AA223270092A602 /* CoreLocation.framework */; };
+		6DDE24821AA223B30092A602 /* MapaSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24811AA223B30092A602 /* MapaSocialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,16 @@
 		6DDE24601AA2014E0092A602 /* CultivArteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivArteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDE24651AA2014E0092A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DDE24661AA2014E0092A602 /* CultivArteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CultivArteTests.m; sourceTree = "<group>"; };
+		6DDE24701AA206970092A602 /* ReferenciaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenciaTableViewController.h; sourceTree = "<group>"; };
+		6DDE24711AA206970092A602 /* ReferenciaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenciaTableViewController.m; sourceTree = "<group>"; };
+		6DDE24731AA20C890092A602 /* ReferenciaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenciaDetailViewController.h; sourceTree = "<group>"; };
+		6DDE24741AA20C890092A602 /* ReferenciaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenciaDetailViewController.m; sourceTree = "<group>"; };
+		6DDE24761AA217260092A602 /* Referencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Referencia.h; sourceTree = "<group>"; };
+		6DDE24771AA217260092A602 /* Referencia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Referencia.m; sourceTree = "<group>"; };
+		6DDE24791AA223210092A602 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6DDE247B1AA223270092A602 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6DDE24801AA223B30092A602 /* MapaSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaSocialViewController.h; sourceTree = "<group>"; };
+		6DDE24811AA223B30092A602 /* MapaSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaSocialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDE247C1AA223270092A602 /* CoreLocation.framework in Frameworks */,
+				6DDE247A1AA223210092A602 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,8 @@
 		6DDE243B1AA2014E0092A602 = {
 			isa = PBXGroup;
 			children = (
+				6DDE247B1AA223270092A602 /* CoreLocation.framework */,
+				6DDE24791AA223210092A602 /* MapKit.framework */,
 				6DDE24461AA2014E0092A602 /* CultivArte */,
 				6DDE24631AA2014E0092A602 /* CultivArteTests */,
 				6DDE24451AA2014E0092A602 /* Products */,
@@ -84,15 +104,10 @@
 		6DDE24461AA2014E0092A602 /* CultivArte */ = {
 			isa = PBXGroup;
 			children = (
-				6DDE244B1AA2014E0092A602 /* AppDelegate.h */,
-				6DDE244C1AA2014E0092A602 /* AppDelegate.m */,
-				6DDE244E1AA2014E0092A602 /* FirstViewController.h */,
-				6DDE244F1AA2014E0092A602 /* FirstViewController.m */,
-				6DDE24511AA2014E0092A602 /* SecondViewController.h */,
-				6DDE24521AA2014E0092A602 /* SecondViewController.m */,
-				6DDE24541AA2014E0092A602 /* Main.storyboard */,
+				6DDE247D1AA223310092A602 /* Model */,
+				6DDE247F1AA223720092A602 /* View */,
+				6DDE247E1AA223690092A602 /* Controller */,
 				6DDE24571AA2014E0092A602 /* Images.xcassets */,
-				6DDE24591AA2014E0092A602 /* LaunchScreen.xib */,
 				6DDE24471AA2014E0092A602 /* Supporting Files */,
 			);
 			path = CultivArte;
@@ -101,6 +116,8 @@
 		6DDE24471AA2014E0092A602 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DDE244B1AA2014E0092A602 /* AppDelegate.h */,
+				6DDE244C1AA2014E0092A602 /* AppDelegate.m */,
 				6DDE24481AA2014E0092A602 /* Info.plist */,
 				6DDE24491AA2014E0092A602 /* main.m */,
 			);
@@ -122,6 +139,41 @@
 				6DDE24651AA2014E0092A602 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DDE247D1AA223310092A602 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24761AA217260092A602 /* Referencia.h */,
+				6DDE24771AA217260092A602 /* Referencia.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6DDE247E1AA223690092A602 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24801AA223B30092A602 /* MapaSocialViewController.h */,
+				6DDE24811AA223B30092A602 /* MapaSocialViewController.m */,
+				6DDE244E1AA2014E0092A602 /* FirstViewController.h */,
+				6DDE244F1AA2014E0092A602 /* FirstViewController.m */,
+				6DDE24511AA2014E0092A602 /* SecondViewController.h */,
+				6DDE24521AA2014E0092A602 /* SecondViewController.m */,
+				6DDE24731AA20C890092A602 /* ReferenciaDetailViewController.h */,
+				6DDE24741AA20C890092A602 /* ReferenciaDetailViewController.m */,
+				6DDE24701AA206970092A602 /* ReferenciaTableViewController.h */,
+				6DDE24711AA206970092A602 /* ReferenciaTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6DDE247F1AA223720092A602 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24591AA2014E0092A602 /* LaunchScreen.xib */,
+				6DDE24541AA2014E0092A602 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,8 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDE24531AA2014E0092A602 /* SecondViewController.m in Sources */,
+				6DDE24781AA217260092A602 /* Referencia.m in Sources */,
 				6DDE244D1AA2014E0092A602 /* AppDelegate.m in Sources */,
 				6DDE24501AA2014E0092A602 /* FirstViewController.m in Sources */,
+				6DDE24721AA206970092A602 /* ReferenciaTableViewController.m in Sources */,
+				6DDE24751AA20C890092A602 /* ReferenciaDetailViewController.m in Sources */,
+				6DDE24821AA223B30092A602 /* MapaSocialViewController.m in Sources */,
 				6DDE244A1AA2014E0092A602 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
