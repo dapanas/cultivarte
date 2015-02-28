@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DDE244A1AA2014E0092A602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24491AA2014E0092A602 /* main.m */; };
+		6DDE244D1AA2014E0092A602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE244C1AA2014E0092A602 /* AppDelegate.m */; };
+		6DDE24501AA2014E0092A602 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE244F1AA2014E0092A602 /* FirstViewController.m */; };
+		6DDE24531AA2014E0092A602 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24521AA2014E0092A602 /* SecondViewController.m */; };
+		6DDE24561AA2014E0092A602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24541AA2014E0092A602 /* Main.storyboard */; };
+		6DDE24581AA2014E0092A602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24571AA2014E0092A602 /* Images.xcassets */; };
+		6DDE245B1AA2014E0092A602 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDE24591AA2014E0092A602 /* LaunchScreen.xib */; };
+		6DDE24671AA2014E0092A602 /* CultivArteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE24661AA2014E0092A602 /* CultivArteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DDE24611AA2014E0092A602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DDE243C1AA2014E0092A602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDE24431AA2014E0092A602;
+			remoteInfo = CultivArte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DDE24441AA2014E0092A602 /* CultivArte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CultivArte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDE24481AA2014E0092A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDE24491AA2014E0092A602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DDE244B1AA2014E0092A602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DDE244C1AA2014E0092A602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DDE244E1AA2014E0092A602 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6DDE244F1AA2014E0092A602 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6DDE24511AA2014E0092A602 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6DDE24521AA2014E0092A602 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6DDE24551AA2014E0092A602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DDE24571AA2014E0092A602 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DDE245A1AA2014E0092A602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DDE24601AA2014E0092A602 /* CultivArteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CultivArteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDE24651AA2014E0092A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDE24661AA2014E0092A602 /* CultivArteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CultivArteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DDE24411AA2014E0092A602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDE245D1AA2014E0092A602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DDE243B1AA2014E0092A602 = {
+			isa = PBXGroup;
+			children = (
+				6DDE24461AA2014E0092A602 /* CultivArte */,
+				6DDE24631AA2014E0092A602 /* CultivArteTests */,
+				6DDE24451AA2014E0092A602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DDE24451AA2014E0092A602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24441AA2014E0092A602 /* CultivArte.app */,
+				6DDE24601AA2014E0092A602 /* CultivArteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DDE24461AA2014E0092A602 /* CultivArte */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE244B1AA2014E0092A602 /* AppDelegate.h */,
+				6DDE244C1AA2014E0092A602 /* AppDelegate.m */,
+				6DDE244E1AA2014E0092A602 /* FirstViewController.h */,
+				6DDE244F1AA2014E0092A602 /* FirstViewController.m */,
+				6DDE24511AA2014E0092A602 /* SecondViewController.h */,
+				6DDE24521AA2014E0092A602 /* SecondViewController.m */,
+				6DDE24541AA2014E0092A602 /* Main.storyboard */,
+				6DDE24571AA2014E0092A602 /* Images.xcassets */,
+				6DDE24591AA2014E0092A602 /* LaunchScreen.xib */,
+				6DDE24471AA2014E0092A602 /* Supporting Files */,
+			);
+			path = CultivArte;
+			sourceTree = "<group>";
+		};
+		6DDE24471AA2014E0092A602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24481AA2014E0092A602 /* Info.plist */,
+				6DDE24491AA2014E0092A602 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DDE24631AA2014E0092A602 /* CultivArteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24661AA2014E0092A602 /* CultivArteTests.m */,
+				6DDE24641AA2014E0092A602 /* Supporting Files */,
+			);
+			path = CultivArteTests;
+			sourceTree = "<group>";
+		};
+		6DDE24641AA2014E0092A602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DDE24651AA2014E0092A602 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DDE24431AA2014E0092A602 /* CultivArte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDE246A1AA2014E0092A602 /* Build configuration list for PBXNativeTarget "CultivArte" */;
+			buildPhases = (
+				6DDE24401AA2014E0092A602 /* Sources */,
+				6DDE24411AA2014E0092A602 /* Frameworks */,
+				6DDE24421AA2014E0092A602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CultivArte;
+			productName = CultivArte;
+			productReference = 6DDE24441AA2014E0092A602 /* CultivArte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DDE245F1AA2014E0092A602 /* CultivArteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDE246D1AA2014E0092A602 /* Build configuration list for PBXNativeTarget "CultivArteTests" */;
+			buildPhases = (
+				6DDE245C1AA2014E0092A602 /* Sources */,
+				6DDE245D1AA2014E0092A602 /* Frameworks */,
+				6DDE245E1AA2014E0092A602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DDE24621AA2014E0092A602 /* PBXTargetDependency */,
+			);
+			name = CultivArteTests;
+			productName = CultivArteTests;
+			productReference = 6DDE24601AA2014E0092A602 /* CultivArteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DDE243C1AA2014E0092A602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SZ;
+				TargetAttributes = {
+					6DDE24431AA2014E0092A602 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6DDE245F1AA2014E0092A602 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6DDE24431AA2014E0092A602;
+					};
+				};
+			};
+			buildConfigurationList = 6DDE243F1AA2014E0092A602 /* Build configuration list for PBXProject "CultivArte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DDE243B1AA2014E0092A602;
+			productRefGroup = 6DDE24451AA2014E0092A602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DDE24431AA2014E0092A602 /* CultivArte */,
+				6DDE245F1AA2014E0092A602 /* CultivArteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DDE24421AA2014E0092A602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDE24561AA2014E0092A602 /* Main.storyboard in Resources */,
+				6DDE245B1AA2014E0092A602 /* LaunchScreen.xib in Resources */,
+				6DDE24581AA2014E0092A602 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDE245E1AA2014E0092A602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DDE24401AA2014E0092A602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDE24531AA2014E0092A602 /* SecondViewController.m in Sources */,
+				6DDE244D1AA2014E0092A602 /* AppDelegate.m in Sources */,
+				6DDE24501AA2014E0092A602 /* FirstViewController.m in Sources */,
+				6DDE244A1AA2014E0092A602 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDE245C1AA2014E0092A602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDE24671AA2014E0092A602 /* CultivArteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DDE24621AA2014E0092A602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DDE24431AA2014E0092A602 /* CultivArte */;
+			targetProxy = 6DDE24611AA2014E0092A602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DDE24541AA2014E0092A602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DDE24551AA2014E0092A602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DDE24591AA2014E0092A602 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DDE245A1AA2014E0092A602 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DDE24681AA2014E0092A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DDE24691AA2014E0092A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DDE246B1AA2014E0092A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CultivArte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DDE246C1AA2014E0092A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CultivArte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DDE246E1AA2014E0092A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CultivArteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CultivArte.app/CultivArte";
+			};
+			name = Debug;
+		};
+		6DDE246F1AA2014E0092A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CultivArteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CultivArte.app/CultivArte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DDE243F1AA2014E0092A602 /* Build configuration list for PBXProject "CultivArte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDE24681AA2014E0092A602 /* Debug */,
+				6DDE24691AA2014E0092A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDE246A1AA2014E0092A602 /* Build configuration list for PBXNativeTarget "CultivArte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDE246B1AA2014E0092A602 /* Debug */,
+				6DDE246C1AA2014E0092A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DDE246D1AA2014E0092A602 /* Build configuration list for PBXNativeTarget "CultivArteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDE246E1AA2014E0092A602 /* Debug */,
+				6DDE246F1AA2014E0092A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DDE243C1AA2014E0092A602 /* Project object */;
+}
